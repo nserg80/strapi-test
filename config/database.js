@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'bookshelf',
       settings: {
-        cclient: "postgres",
+        client: "postgres",
         host: process.env.DATABASE_HOST,
         port: process.env.DATABASE_PORT,
         database: process.env.DATABASE_NAME,
